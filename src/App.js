@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Plus, X, DollarSign, TrendingUp, Calendar, Tag, Download, Upload, PieChart, BarChart3, Filter, Search, Receipt, Percent, AlertCircle, FileText, Clock } from 'lucide-react';
+import { Plus, X, DollarSign, TrendingUp, Calendar, Download, BarChart3, Filter, Search, Receipt, Percent, AlertCircle, Clock } from 'lucide-react';
 
 const ExpenseTracker = () => {
   const [expenses, setExpenses] = useState([]);
